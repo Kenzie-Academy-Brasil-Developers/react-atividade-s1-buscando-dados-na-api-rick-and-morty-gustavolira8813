@@ -7,7 +7,7 @@ function Characters({ characterList }) {
       <ul className="cardList">
         {characterList.map((e) => (
           <li className="cards">
-            <CharCard key={e} characterList={e} />
+            <CharCard key={e.id} characterList={e} />
           </li>
         ))}
       </ul>
